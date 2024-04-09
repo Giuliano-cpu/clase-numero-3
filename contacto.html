@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Este es el formulario de contacto</h1>
+    </header>
+    <main>
+       <div>
+           <h2>este es un formulario para que puedas contactarnos</h2>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Error eaque assumenda aperiam officia, veritatis blanditiis
+             quis fuga exercitationem nemo aut, ut fugiat sequi quos.
+             Quisquam porro dolorum delectus voluptatem similique?
+          </p> <!--la etiqueta de lorem tiene la funcion de permitir a tu enlace 
+                redirigirte a otra pagina-->
+       </div>
+        
+       <form> <!--la etiqueta de form como dice su nombre es el formulario-->
+               <div>
+                  <label for="email">Email:</label>
+                  <input type="email" name="email"/>
+              </div>          <!--la etiqueta de input y su atributo te permiten darle
+                               caracteristicas a tu formulario, por ejemplo; que sea 
+                               obligatoriamente un email-->
+                   <div>
+                       <label for="password">Contraseña:</label> <!--la etiqueta de label tiene la funcion de especificar el bloque de formulario-->
+                       <input type="password" name="password"/>
+                   </div>
+
+                   <div>
+                       <label for="edad">Edad:</label>
+                       <input type="number" name="edad">
+                   </div>
+
+                   <div>
+                       <input type="text" name="nombre" placeholder="nombre"> <!--placeholder es un atributo que te permite
+                                                                                visualisar la palabra "nombre" en este caso dentro del bloque del formulario-->
+                   </div>
+
+                   <div>
+                     <input type="text" name="apellido" placeholder="apellido">
+                   </div>
+
+                   <button>ENVIAR</button> <!--la etiqueta button tiene la funcion de boton-->
+
+        </form>
+    </main>
+</body>
+</html>
